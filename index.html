@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Academico</title>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+</head>
+<body>
+    <h1>Cadastro de Alunos</h1>
+    <form action="processa_formulario.php" method="POST">
+        Matricula: <input type="text" name="matricula"> <br>
+        Nome: <input type="text" name="nome_aluno"> <br>
+        Data nascimento: <input type="text" name="nasc_aluno"> <br>
+        Sexo: <br>
+        <input type="radio" name="sexo" value="masculino"> Masculino <br>
+        <input type="radio" name="sexo" value="feminino"> Feminino <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="form.js"></script> 
+    <footer>
+        <div id="data-atual"></div>
+    </footer>
+</body>
+</html>
